@@ -1,0 +1,31 @@
+.container {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.nombre, .hobbies, .peliculas, .imagen {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nombre h2, .hobbies h2, .peliculas h2, .imagen h2 {
+    margin-bottom: 10px;
+}
+
+.imagen img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+}
