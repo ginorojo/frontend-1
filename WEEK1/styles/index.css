@@ -1,5 +1,4 @@
 
-
 body{
     background-color: beige;
 }
@@ -19,5 +18,10 @@ section{
     max-width: 1000px;
 }
 
+.navegation nav ul a{
+    text-decoration: none;
+    color: white;
+        
+}
 
 
