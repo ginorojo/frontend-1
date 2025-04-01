@@ -14,8 +14,9 @@ body{
 }
 
 section{
-    padding: 0px 20px;
-    max-width: 1000px;
+    padding: 0px 30px;
+    max-width:100%;
+    border: 2px solid black ;
 }
 
 .navegation nav ul a{
@@ -40,4 +41,14 @@ h2{
 
 .title img{
     max-width: 50px;
+}
+.navegation nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+section p{
+    max-width: 1500px;
 }
