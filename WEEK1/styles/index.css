@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: beige;
+}
+
+
+.heading{
+    background-color: rgb(178, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding:0px 20px;
+}
+
+section{
+    padding: 0px 20px;
+    max-width: 1000px;
+}
+
+
+
